@@ -4,7 +4,7 @@ namespace ExemploExplorando
 {
     public class Curso
     {
-        //Atributos
+        //Propriedades
         public string Nome { get; set; }
         public List<Pessoa> Alunos { get; set; }
 
@@ -29,9 +29,15 @@ namespace ExemploExplorando
         public void ListarAlunos()
         {
             System.Console.WriteLine($"Alunos do curso de: {Nome}");
-            foreach(Pessoa aluno in Alunos)
+
+            for(int count = 0; count < Alunos.Count; count++)
             {
-                System.Console.WriteLine(aluno.NomeCompleto);
+                //Concatenaçäo de strings com + 
+                //string texto = "Nº " + count + " - " + Alunos[count].NomeCompleto;
+                
+                //Interpolaçäo de string (utiliza-se $ antes das "")
+                string texto = $"Nº {count + 1} - {Alunos[count].NomeCompleto}";
+                System.Console.WriteLine(texto);
             }
         }
     }

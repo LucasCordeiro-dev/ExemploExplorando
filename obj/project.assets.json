@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\VsCodeProjects\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VsCodeProjects\\ManipulandoDados-ObjetosCom.Net\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "C:\\Users\\User\\Desktop\\VsCodeProjects\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\VsCodeProjects\\ManipulandoDados-ObjetosCom.Net\\ExemploExplorando.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\VsCodeProjects\\ExemploExplorando\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VsCodeProjects\\ManipulandoDados-ObjetosCom.Net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
